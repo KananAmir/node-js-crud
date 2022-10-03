@@ -101,37 +101,6 @@ let products = [
     discontinued: false,
     name: "Aniseed Syrup",
   },
-  {
-    id: 11,
-    supplierId: 5,
-    categoryId: 2,
-    quantityPerUnit: "1 kg pkg.",
-    unitPrice: 21,
-    unitsInStock: 22,
-    unitsOnOrder: 30,
-    reorderLevel: 30,
-    discontinued: false,
-    name: "Queso Cabrales 2",
-    supplier: {
-      id: 5,
-      companyName: "Cooperativa de Quesos 'Las Cabras'",
-      contactName: "Antonio del Valle Saavedra",
-      contactTitle: "Export Administrator",
-      address: {
-        street: "Calle del Rosal 4",
-        city: "Oviedo",
-        region: "Asturias",
-        postalCode: 33007,
-        country: "Spain",
-        phone: "(98) 598 76 54",
-      },
-    },
-    category: {
-      id: 4,
-      description: "Cheeses",
-      name: "Dairy Products",
-    },
-  },
 ]
 
 // parse application/x-www-form-urlencoded
